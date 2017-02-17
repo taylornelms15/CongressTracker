@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="15G1004" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Congressman" representedClassName="Congressman" syncable="YES" codeGenerationType="class">
+        <attribute name="bioguideID" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="district" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="name_first" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name_last" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="party" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="state" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
     <entity name="Event" representedClassName="Event" codeGenerationType="class">
-        <attribute name="timestamp" optional="YES" attributeType="Date"/>
+        <attribute name="timestamp" optional="YES" attributeType="Date">
+            <userInfo/>
+        </attribute>
+        <userInfo/>
     </entity>
     <elements>
         <element name="Event" positionX="261" positionY="189" width="128" height="60"/>
+        <element name="Congressman" positionX="261" positionY="198" width="128" height="135"/>
     </elements>
 </model>
