@@ -9,13 +9,20 @@
 /* Begin PBXBuildFile section */
 		9516CA7B1E56698200118E32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9516CA7A1E56698200118E32 /* AppDelegate.swift */; };
 		9516CA7E1E56698200118E32 /* CongressTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9516CA7C1E56698200118E32 /* CongressTracker.xcdatamodeld */; };
-		9516CA801E56698200118E32 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9516CA7F1E56698200118E32 /* MasterViewController.swift */; };
-		9516CA821E56698200118E32 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9516CA811E56698200118E32 /* DetailViewController.swift */; };
 		9516CA851E56698200118E32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9516CA831E56698200118E32 /* Main.storyboard */; };
 		9516CA871E56698200118E32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9516CA861E56698200118E32 /* Assets.xcassets */; };
 		9516CA8A1E56698200118E32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9516CA881E56698200118E32 /* LaunchScreen.storyboard */; };
 		9516CA951E56698300118E32 /* CongressTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9516CA941E56698300118E32 /* CongressTrackerTests.swift */; };
 		9516CAA01E56698300118E32 /* CongressTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9516CA9F1E56698300118E32 /* CongressTrackerUITests.swift */; };
+		951F52201E5A976A00ECC3C8 /* CongressmanBrowserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951F521F1E5A976A00ECC3C8 /* CongressmanBrowserVC.swift */; };
+		952D3DAA1E5CFC11001F9FDF /* Committee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952D3DA91E5CFC11001F9FDF /* Committee.swift */; };
+		95386E9A1E5A850E0001135E /* CongressmanList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95386E991E5A850E0001135E /* CongressmanList.swift */; };
+		95AB3CE91E57C5FF004E212A /* senateMembers.json in Resources */ = {isa = PBXBuildFile; fileRef = 95AB3CE81E57C5FF004E212A /* senateMembers.json */; };
+		95AB3CEA1E5A6636004E212A /* Congressman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D152151E56843200756B84 /* Congressman.swift */; };
+		95AB3CEC1E5A6898004E212A /* houseMembers.json in Resources */ = {isa = PBXBuildFile; fileRef = 95AB3CEB1E5A6898004E212A /* houseMembers.json */; };
+		95AB3CEE1E5A6A6F004E212A /* Senator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AB3CED1E5A6A6F004E212A /* Senator.swift */; };
+		95AB3CF01E5A6AEA004E212A /* Representative.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AB3CEF1E5A6AEA004E212A /* Representative.swift */; };
+		95D152161E56843200756B84 /* Congressman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D152151E56843200756B84 /* Congressman.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +46,6 @@
 		9516CA771E56698200118E32 /* CongressTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CongressTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9516CA7A1E56698200118E32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9516CA7D1E56698200118E32 /* CongressTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CongressTracker.xcdatamodel; sourceTree = "<group>"; };
-		9516CA7F1E56698200118E32 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		9516CA811E56698200118E32 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		9516CA841E56698200118E32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9516CA861E56698200118E32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9516CA891E56698200118E32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +56,14 @@
 		9516CA9B1E56698300118E32 /* CongressTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CongressTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9516CA9F1E56698300118E32 /* CongressTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CongressTrackerUITests.swift; sourceTree = "<group>"; };
 		9516CAA11E56698300118E32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		951F521F1E5A976A00ECC3C8 /* CongressmanBrowserVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CongressmanBrowserVC.swift; sourceTree = "<group>"; };
+		952D3DA91E5CFC11001F9FDF /* Committee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Committee.swift; sourceTree = "<group>"; };
+		95386E991E5A850E0001135E /* CongressmanList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CongressmanList.swift; sourceTree = "<group>"; };
+		95AB3CE81E57C5FF004E212A /* senateMembers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = senateMembers.json; path = ../../../senateMembers.json; sourceTree = "<group>"; };
+		95AB3CEB1E5A6898004E212A /* houseMembers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = houseMembers.json; path = ../../../houseMembers.json; sourceTree = "<group>"; };
+		95AB3CED1E5A6A6F004E212A /* Senator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Senator.swift; sourceTree = "<group>"; };
+		95AB3CEF1E5A6AEA004E212A /* Representative.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Representative.swift; sourceTree = "<group>"; };
+		95D152151E56843200756B84 /* Congressman.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Congressman.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +114,16 @@
 		9516CA791E56698200118E32 /* CongressTracker */ = {
 			isa = PBXGroup;
 			children = (
+				95AB3CEB1E5A6898004E212A /* houseMembers.json */,
+				95AB3CE81E57C5FF004E212A /* senateMembers.json */,
 				9516CA7A1E56698200118E32 /* AppDelegate.swift */,
-				9516CA7F1E56698200118E32 /* MasterViewController.swift */,
-				9516CA811E56698200118E32 /* DetailViewController.swift */,
+				95D152101E56831400756B84 /* View */,
 				9516CA831E56698200118E32 /* Main.storyboard */,
 				9516CA861E56698200118E32 /* Assets.xcassets */,
 				9516CA881E56698200118E32 /* LaunchScreen.storyboard */,
 				9516CA8B1E56698200118E32 /* Info.plist */,
 				9516CA7C1E56698200118E32 /* CongressTracker.xcdatamodeld */,
+				95D152141E56833300756B84 /* Model */,
 			);
 			path = CongressTracker;
 			sourceTree = "<group>";
@@ -129,6 +144,26 @@
 				9516CAA11E56698300118E32 /* Info.plist */,
 			);
 			path = CongressTrackerUITests;
+			sourceTree = "<group>";
+		};
+		95D152101E56831400756B84 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				951F521F1E5A976A00ECC3C8 /* CongressmanBrowserVC.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		95D152141E56833300756B84 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				95D152151E56843200756B84 /* Congressman.swift */,
+				95AB3CED1E5A6A6F004E212A /* Senator.swift */,
+				95AB3CEF1E5A6AEA004E212A /* Representative.swift */,
+				95386E991E5A850E0001135E /* CongressmanList.swift */,
+				952D3DA91E5CFC11001F9FDF /* Committee.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,7 +274,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9516CA8A1E56698200118E32 /* LaunchScreen.storyboard in Resources */,
+				95AB3CE91E57C5FF004E212A /* senateMembers.json in Resources */,
 				9516CA871E56698200118E32 /* Assets.xcassets in Resources */,
+				95AB3CEC1E5A6898004E212A /* houseMembers.json in Resources */,
 				9516CA851E56698200118E32 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,10 +302,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95AB3CEE1E5A6A6F004E212A /* Senator.swift in Sources */,
+				952D3DAA1E5CFC11001F9FDF /* Committee.swift in Sources */,
+				95D152161E56843200756B84 /* Congressman.swift in Sources */,
 				9516CA7E1E56698200118E32 /* CongressTracker.xcdatamodeld in Sources */,
+				951F52201E5A976A00ECC3C8 /* CongressmanBrowserVC.swift in Sources */,
+				95AB3CF01E5A6AEA004E212A /* Representative.swift in Sources */,
+				95386E9A1E5A850E0001135E /* CongressmanList.swift in Sources */,
 				9516CA7B1E56698200118E32 /* AppDelegate.swift in Sources */,
-				9516CA801E56698200118E32 /* MasterViewController.swift in Sources */,
-				9516CA821E56698200118E32 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +317,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95AB3CEA1E5A6636004E212A /* Congressman.swift in Sources */,
 				9516CA951E56698300118E32 /* CongressTrackerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -513,6 +555,7 @@
 				9516CAA61E56698300118E32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9516CAA71E56698300118E32 /* Build configuration list for PBXNativeTarget "CongressTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +564,7 @@
 				9516CAA91E56698300118E32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9516CAAA1E56698300118E32 /* Build configuration list for PBXNativeTarget "CongressTrackerUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +573,7 @@
 				9516CAAC1E56698300118E32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
